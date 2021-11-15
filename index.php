@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,23 +14,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            font-family: 'Bebas Neue', cursive;
-        }
-        h1 {
-            font-family: 'Bebas Neue', cursive;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> 
 
     <title>Projet de Vic</title>
-  </head>
-  <body class="bg-dark">
+</head>
+<body class="bg-dark">
     <h1 class="text-center text-white display-4 my-4">Mon projet</h1>
 
-
+    <div id="div1" class="">
+        <img src="img/sid.jpg" style="width:200px;" class="d-block mx-auto" alt="Moi">
+        <h2 class="text-dark text-center">Biographie</h2>
+        <p class="text-center">Je m'appelle Victorien MASSICOT, j'ai 21 ans et je vis à Aubergenville. Je suis titulaire d'un baccalauréat professionnel en gestion-administration ainsi qu'un BTS gestion PME</p>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
