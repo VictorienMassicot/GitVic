@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-size: 16px;
+}
+
+#div1 {
+    background: white;
+    min-height: 300px;
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 50%;
+}
