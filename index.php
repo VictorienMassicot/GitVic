@@ -19,15 +19,29 @@
     <title>Projet de Vic</title>
 </head>
 <body class="bg-dark">
-    <h1 class="text-center text-white display-4 my-4">Mon projet</h1>
+    <div class="container">
+        <h1 class="text-center text-light display-2 my-4">Mon projet</h1>
 
-    <div id="div1" class="">
-        <img src="img/sid.jpg" style="width:200px;" class="d-block mx-auto" alt="Moi">
-        <h2 class="text-dark text-center">Biographie</h2>
-        <p class="text-center">Je m'appelle Victorien MASSICOT, j'ai 21 ans et je vis à Aubergenville. Je suis titulaire d'un baccalauréat professionnel en gestion-administration ainsi qu'un BTS gestion PME</p>
+        <div id="div1">
+            <img src="img/sid.jpg" style="width:200px;" class="d-block mx-auto" alt="Moi">
+            <h2 class="text-white text-center mt-2">Biographie</h2>
+            <p class="text-white text-center m-2">Je m'appelle Victorien MASSICOT, j'ai 21 ans et je vis à Aubergenville. Je suis titulaire d'un baccalauréat professionnel en gestion-administration ainsi qu'un BTS gestion PME</p>
+        </div>
+
+        <hr class="bg-white">
+
+        <h2 class="display-4 text-white">A PROPOS DE MOI</h2>
+
+        <div class="d-flex flex-row align-items-center">
+            <div class="col-md-4">
+                <img src="img/gsw.png" alt="GSW">
+            </div>
+            <div class="col-md-8">
+                <p class="text-white" style="font-size:16px;">En NBA, je supporte les Golden State Warriors.<br> Mon joueur favori est Klay Thompson</p>
+            </div>
+        </div>
+
     </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
