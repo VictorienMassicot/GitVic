@@ -5,20 +5,21 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
 }
 h1, h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-p {
-    font-size: 36px;
+#paraph {
+    text-align: justify !important;
+    text-justify: inter-word !important;
 }
 
 #div1 {
-    min-height: 300px;
-    width: 500px;
+    min-height: 100%;
+    width: 700px;
     margin: 0 auto;
-    border-radius: 5px;
 }
 
 img {
